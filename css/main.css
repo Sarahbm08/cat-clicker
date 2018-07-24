@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+}
+
+.cat-list-menu {
+	float: left;
+}
+
+#cat-list {
+	text-align: left;
+	list-style: none;
+}
+
+.cat-display {
+	align-content: center;
+}
+
+#admin-form {
+	text-align: center;
+	display: none;
+}

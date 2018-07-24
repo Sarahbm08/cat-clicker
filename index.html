@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Cat Clicker</h1>
+        </header>
+		
+		<button id="admin-button">Admin</button>
+		<form id="admin-form">
+			<div>
+				<label for="name-input">Name:</label>
+				<input type="text" id="name-input" name="cat_name">
+			</div>
+			<div>
+				<label for="pic-url-input">Pic URL:</label>
+				<input type="text" id="pic-url-input" name="pic_url">
+			</div>
+			<div>
+				<label for="num-clicks-input">Number of Clicks:</label>
+				<input type="text" id="num-clicks-input" name="num_clicks">
+			</div>
+			<div>
+				<button id="cancel-button">Cancel</button>
+				<button id="save-button">Save</button>
+			</div>
+		</form>
+
+        <div class="cat-list-menu">
+            <h3>Cat List</h3>
+            <ul id="cat-list"></ul>
+        </div>
+
+		<div class="cat-display">
+			<h2 id="cat-name"></h2>
+			<img id="cat-img" src="" alt="cute cat">			
+			<div id="cat-count"></div>
+		</div>       
+
+    </div>
+
+    <script src="js/mvo_app.js"></script>
+</body>
+</html>
